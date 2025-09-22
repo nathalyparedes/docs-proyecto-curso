@@ -1,0 +1,28 @@
+# Release v1.1.0 — 2025-09-21
+
+**Resumen**
+- Se agrega guía completa de contribución y se mejora la tabla de versiones.
+
+**Detalles**
+- **Added**: Guía de contribución completa (README y /docs/CONTRIBUTING.md). (#101)
+- **Added**: Convenciones de commits, nombres de ramas y proceso de revisión
+- **Changed**: Tabla "Versiones" en README con columna adicional de notas
+- **Changed**: Documentación de estructura del proyecto actualizada
+- **Fixed**: N/A
+
+**Archivos modificados**
+- `README.md`: Nueva sección "Cómo contribuir" y tabla de versiones mejorada
+- `docs/CONTRIBUTING.md`: Guía completa de contribución (nuevo archivo)
+- `CHANGELOG.md`: Actualizado con cambios de v1.1.0
+
+**Instrucciones de actualización**
+- No se requieren migraciones. Actualiza tu rama local desde `main` y sincroniza etiquetas:
+  ```bash
+  git checkout main
+  git pull origin main
+  git fetch --tags
+  ```
+
+**Agradecimientos**
+- Revisión por: Nathaly Paredes
+- Issue reportado por: Nathaly Paredes (#101)
